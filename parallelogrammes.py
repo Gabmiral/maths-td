@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import math
 
 def definenumbers():
 	global xA, yA, xB, yB, xC, yC, xD, yD
@@ -27,21 +26,18 @@ pour A(1;1); B(4;2); C(8;-2) et D(5;-1) : Pas un parallélogramme
 def testquadri():
 	test = testparall()
 	if test == 0:
-		AB = math.sqrt((xB - xA)**2 + (yB - yA)**2)
-		BC = math.sqrt((xC - xB)**2 + (yC - yB)**2)
-		print(AB, BC)
+		AB = (xB - xA)**2 + (yB - yA)**2
+		BC = (xC - xB)**2 + (yC - yB)**2
 		if AB == BC:
-			BD = math.sqrt((xB - xD)**2 + (yB - yD)**2)
-			AC = math.sqrt((xA - xC)**2 + (yA - yC)**2)
-			print(BD, AC)
+			BD = (xB - xD)**2 + (yB - yD)**2
+			AC = (xA - xC)**2 + (yA - yC)**2
 			if BD == AC:
 				print("Ce quadrilatère est un carré")
 			else:
 				print("Ce quadrilatère est un losange")
 		else:
-			BD = math.sqrt((xB - xD)**2 + (yB - yD)**2)
-			AC = math.sqrt((xA - xC)**2 + (yA - yC)**2)
-			print(BD, AC)
+			BD = (xB - xD)**2 + (yB - yD)**2
+			AC = (xA - xC)**2 + (yA - yC)**2
 			if BD == AC:
 				print("Ce quadrilatère est un rectangle")
 			else:
