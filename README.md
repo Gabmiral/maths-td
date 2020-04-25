@@ -1,3 +1,3 @@
 # maths-td
-Je ne suis pas le créateur des PDFs
-- TD Algorithmes et Parallélogrammes : [PDF de consigne](https://github.com/gabmiral/maths-td/blob/master/parallelogrammes.pdf) et [Script Python (avec réponses en commentaires)](https://github.com/gabmiral/maths-td/blob/master/parallelogrammes.py)
+Les PDFs sont copyrightés et je n'ai pas les droits. Le code Python est le mien et est licensé sous la [GPL v3](LICENSE)
+- TD Algorithmes et Parallélogrammes : [PDF de consigne](parallelogrammes.pdf) et [Script Python (avec réponses en commentaires)](parallelogrammes.py)
