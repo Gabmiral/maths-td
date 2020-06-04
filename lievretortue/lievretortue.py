@@ -39,7 +39,7 @@ def test(nombre): # la fonction de test que j'ai créé pour l'ex 1. Bien qu'ell
 def exercice3(nombre):
     L = 0
     T = 0
-    for i in range(nombre):
+    for k in range(nombre):
         N = 0
         output = 0
         while N < 6:
@@ -52,4 +52,6 @@ def exercice3(nombre):
             L += 1
         else :
             T += 1
-    print("Sur " + str(nombre) + " parties, le lièvre a gagné " + str(L) + " fois et la tortue a gagnée " + str(T) + " fois.") # La loi des grands nombres est validée
+    probL=L/nombre
+    probT=T/nombre
+    print("Sur " + str(nombre) + " parties, le lièvre a gagné " + str(L) + " fois (soit une probabilité de " + str(probL) + ") et la tortue a gagnée " + str(T) + " fois (soit une probabilité de " + str(probT) + "). ") # La loi des grands nombres est validée
