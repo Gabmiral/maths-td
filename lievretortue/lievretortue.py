@@ -33,5 +33,7 @@ def test(nombre):
 """
 1. Le lièvre semble avoir l'avantage : sur 10 millions d'essais, il a gagné 6650535 parties, soit 66.5%.
 
-2. 
+2. https://github.com/gabmiral/maths-td/livretortue/arbredespossibles.png
 """
+
+def exercice3():
